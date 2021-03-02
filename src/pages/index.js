@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Icon, Box } from "@quarkly/widgets";
+import { Theme, Link, Icon, Box, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override } from "@quarkly/components";
@@ -31,6 +31,7 @@ export default (() => {
 		<Icon category="md" icon={MdAndroid} />
 		<Icon category="md" icon={MdAndroid} />
 		<Icon category="md" icon={MdAndroid} />
+		<Image width="64px" height="64px" src="https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000" />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
